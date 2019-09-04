@@ -590,6 +590,22 @@
         'usd',
       ],
     },
+    wavepay: {
+      name: 'WavePay',
+      flow: 'redirect',
+      countries: ['CN', 'HK', 'SG', 'JP'],
+      currencies: [
+        'aud',
+        'cad',
+        'eur',
+        'gbp',
+        'hkd',
+        'jpy',
+        'nzd',
+        'sgd',
+        'usd',
+      ],
+    },
     bancontact: {
       name: 'Bancontact',
       flow: 'redirect',
@@ -721,6 +737,11 @@
             paymentMethods[input.value].countries.includes(country) &&
             paymentMethods[input.value].currencies.includes(config.currency))
       );
+
+
+      if (country == 'CN' && input.value == 'wavepay') {
+        input.parentElement.classList.add('visible');
+      }
     }
 
     // Hide the tabs if card is the only available option.

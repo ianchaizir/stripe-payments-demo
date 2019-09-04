@@ -9,7 +9,7 @@ class Inventory
     'increment' => [
       'type' => 'good', 'name'=> 'Increment Magazine', 'attributes' => [ 'issue' ],
       'sku' => [
-        'id' => 'increment-03',
+        'id' => 'sku_FYWiegfRqgHQKz',
         'product' => 'increment',
         'attributes' => [ 'issue' => 'Issue #3 “Development”' ],
         'price' => 399, 'currency' => 'usd',
@@ -19,7 +19,7 @@ class Inventory
     'pins' => [
       'type' => 'good', 'name' => 'Stripe Pins', 'attributes' => [ 'set' ],
       'sku' => [
-        'id' => 'pins-collector',
+        'id' => 'sku_FYWinI0OR5qHF3',
         'product' => 'pins',
         'attributes' => [ 'set' => 'Collector Set' ],
         'price' => 799, 'currency' => 'usd',
@@ -29,7 +29,7 @@ class Inventory
     'shirt' => [
       'type' => 'good', 'name' => 'Stripe Shirt', 'attributes' => ['size', 'gender'],
       'sku' => [
-        'id' => 'shirt-small-woman',
+        'id' => 'sku_FYWimQ68UBbSd3',
         'product' => 'shirt',
         'attributes' => [ 'size' => 'Small Standard', 'gender' => 'Woman' ],
         'price' => 999, 'currency' => 'usd',
